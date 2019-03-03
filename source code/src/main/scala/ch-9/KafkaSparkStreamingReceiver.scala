@@ -1,3 +1,5 @@
+package ch-9
+
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SQLContext
