@@ -1888,91 +1888,89 @@
 [debug] == resolving dependencies new-kafka-streams#new-kafka-streams$sources;0.0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\anshuman\.ivy2\local\org.apache.kafka\connect-json\1.0.0\srcs\connect-json-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.9.1\srcs\jackson-databind-sources.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.9.0\srcs\jackson-annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/kafka/connect-json/1.0.0/connect-json-1.0.0-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar
-[debug] 		tried C:\Users\anshuman\.ivy2\local\org.apache.kafka\kafka-clients\1.0.0\srcs\kafka-clients-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/kafka/connect-json/1.0.0/connect-json-1.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/connect-json/1.0.0/connect-json-1.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/connect-json/1.0.0/connect-json-1.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/kafka/connect-json/1.0.0/connect-json-1.0.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.kafka#connect-json;1.0.0!connect-json.jar(src) (1415ms)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\com.lightbend\kafka-streams-scala_2.11\0.1.0\srcs\kafka-streams-scala_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/lightbend/kafka-streams-scala_2.11/0.1.0/kafka-streams-scala_2.11-0.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/lightbend/kafka-streams-scala_2.11/0.1.0/kafka-streams-scala_2.11-0.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/lightbend/kafka-streams-scala_2.11/0.1.0/kafka-streams-scala_2.11-0.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/lightbend/kafka-streams-scala_2.11/0.1.0/kafka-streams-scala_2.11-0.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src) (2490ms)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\org.apache.kafka\connect-api\1.0.0\srcs\connect-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/kafka/connect-api/1.0.0/connect-api-1.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/apache/kafka/connect-api/1.0.0/connect-api-1.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/connect-api/1.0.0/connect-api-1.0.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/lightbend/kafka-streams-scala_2.11/0.1.0/kafka-streams-scala_2.11-0.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.lightbend#kafka-streams-scala_2.11;0.1.0!kafka-streams-scala_2.11.jar(src) (1600ms)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\org.rocksdb\rocksdbjni\5.7.3\srcs\rocksdbjni-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/rocksdb/rocksdbjni/5.7.3/rocksdbjni-5.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.1!jackson-databind.jar(src) (3129ms)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\org.apache.kafka\kafka-streams\1.0.0\srcs\kafka-streams-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/rocksdb/rocksdbjni/5.7.3/rocksdbjni-5.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/rocksdb/rocksdbjni/5.7.3/rocksdbjni-5.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/connect-api/1.0.0/connect-api-1.0.0-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/kafka/connect-api/1.0.0/connect-api-1.0.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.kafka#connect-api;1.0.0!connect-api.jar(src) (1387ms)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\org.xerial.snappy\snappy-java\1.1.4\srcs\snappy-java-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/rocksdb/rocksdbjni/5.7.3/rocksdbjni-5.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/rocksdb/rocksdbjni/5.7.3/rocksdbjni-5.7.3-sources.jar
-[info] 	[SUCCESSFUL ] org.rocksdb#rocksdbjni;5.7.3!rocksdbjni.jar(src) (2650ms)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.9.1\srcs\jackson-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.kafka#kafka-streams;1.0.0!kafka-streams.jar(src) (2626ms)
-[debug] 		tried C:\Users\anshuman\.ivy2\local\org.lz4\lz4-java\1.4\srcs\lz4-java-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4/lz4-java-1.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4/lz4-java-1.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4/lz4-java-1.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.kafka#kafka-clients;1.0.0!kafka-clients.jar(src) (6543ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4/lz4-java-1.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4/lz4-java-1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.lz4#lz4-java;1.4!lz4-java.jar(src) (1336ms)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.1!jackson-databind.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\anshuman\.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#connect-json;1.0.0!connect-json.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\anshuman\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\anshuman\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\anshuman\.ivy2
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\anshuman\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to C:\Users\anshuman\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\anshuman\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (90ms)
+[debug] 	default cache: C:\Users\anshuman\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] settings loaded (145ms)
+[debug] 	default [chain] [local, main]
+[debug] 	default cache: C:\Users\anshuman\.ivy2\cache
+[debug] 	public [ibiblio]
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] com.lightbend#kafka-streams-scala_2.11;0.1.0!kafka-streams-scala_2.11.jar(src)
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.rocksdb#rocksdbjni;5.7.3!rocksdbjni.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.1!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-streams;1.0.0!kafka-streams.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-clients;1.0.0!kafka-clients.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.1!jackson-core.jar(src) (2137ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.xerial.snappy#snappy-java;1.1.4!snappy-java.jar(src) (5345ms)
-[debug] :: resolution report :: resolve 519ms :: artifacts dl 9248ms
+[debug] 	[NOT REQUIRED] org.lz4#lz4-java;1.4!lz4-java.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.kafka#connect-api;1.0.0!connect-api.jar(src)
+[debug] settings loaded (128ms)
+[debug] 	default cache: C:\Users\anshuman\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.4!snappy-java.jar(src)
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\anshuman\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/anshuman/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (190ms)
+[debug] 	default cache: C:\Users\anshuman\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 3150ms :: artifacts dl 457ms
 [debug] 	report for new-kafka-streams#new-kafka-streams$sources;0.0.1-SNAPSHOT compile produced in D:\bills etc\book\Mastering-Apache-Kafka-2.0\source code\ch-3\target\scala-2.11\resolution-cache\reports\new-kafka-streams-new-kafka-streams$sources-compile.xml
 [debug] 	report for new-kafka-streams#new-kafka-streams$sources;0.0.1-SNAPSHOT runtime produced in D:\bills etc\book\Mastering-Apache-Kafka-2.0\source code\ch-3\target\scala-2.11\resolution-cache\reports\new-kafka-streams-new-kafka-streams$sources-runtime.xml
 [debug] 	report for new-kafka-streams#new-kafka-streams$sources;0.0.1-SNAPSHOT test produced in D:\bills etc\book\Mastering-Apache-Kafka-2.0\source code\ch-3\target\scala-2.11\resolution-cache\reports\new-kafka-streams-new-kafka-streams$sources-test.xml
@@ -1984,4 +1982,4 @@
 [debug] 	report for new-kafka-streams#new-kafka-streams$sources;0.0.1-SNAPSHOT plugin produced in D:\bills etc\book\Mastering-Apache-Kafka-2.0\source code\ch-3\target\scala-2.11\resolution-cache\reports\new-kafka-streams-new-kafka-streams$sources-plugin.xml
 [debug] 	report for new-kafka-streams#new-kafka-streams$sources;0.0.1-SNAPSHOT pom produced in D:\bills etc\book\Mastering-Apache-Kafka-2.0\source code\ch-3\target\scala-2.11\resolution-cache\reports\new-kafka-streams-new-kafka-streams$sources-pom.xml
 [debug] 	report for new-kafka-streams#new-kafka-streams$sources;0.0.1-SNAPSHOT scala-tool produced in D:\bills etc\book\Mastering-Apache-Kafka-2.0\source code\ch-3\target\scala-2.11\resolution-cache\reports\new-kafka-streams-new-kafka-streams$sources-scala-tool.xml
-[debug] 	resolve done (519ms resolve - 9248ms download)
+[debug] 	resolve done (3150ms resolve - 457ms download)

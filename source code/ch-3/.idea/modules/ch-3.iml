@@ -22,17 +22,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.9.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.xerial.snappy:snappy-java:1.1.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.rocksdb:rocksdbjni:5.7.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.lz4:lz4-java:1.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.kafka:kafka-streams:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.kafka:kafka-clients:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.kafka:connect-json:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.kafka:connect-api:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.lightbend:kafka-streams-scala_2.11:0.1.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.9.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.9.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lightbend:kafka-streams-scala_2.11:0.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.kafka:connect-api:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.kafka:connect-json:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.kafka:kafka-clients:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.kafka:kafka-streams:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.lz4:lz4-java:1.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.rocksdb:rocksdbjni:5.7.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.xerial.snappy:snappy-java:1.1.4:jar" level="project" />
   </component>
 </module>
