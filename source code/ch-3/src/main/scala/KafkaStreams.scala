@@ -24,8 +24,6 @@ object KafkaStreamss {
       val p = new Properties()
       p.put(StreamsConfig.APPLICATION_ID_CONFIG, "wordcount-application")
       p.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9093")
-      //p.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass)
-      //p.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass)
       p
     }
 
@@ -34,14 +32,6 @@ object KafkaStreamss {
     val builder = new StreamsBuilder()
 
     val textLines: KStream[String, String] = builder.stream[String, String]("pharma")
-    val wordCounts: KTable[String, Long] = textLines
-      .flatMapValues(textLine => textLine.split(" "))
-      .groupBy((_, word) => word)
-      .count()
-    wordCounts.toStream.to("new_pharma")
-    //textLines.to("new_pharma")
-
-
     val eachLinesAsArray : KStream[String, Array[String]]  = textLines
         .mapValues(x => x.split(","))
 
